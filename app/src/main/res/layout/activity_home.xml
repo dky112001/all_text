@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:id="@+id/profilesee"
+        android:layout_height="90dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:id="@+id/deletesee"
+        android:layout_alignParentRight="true"
+        android:layout_height="90dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/deletesee"
+        android:orientation="horizontal"
+        android:id="@+id/line1"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/namesee"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/profilesee"
+        android:layout_height="wrap_content"
+        />
+
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/numbersee"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/profilesee"
+        android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/emailsee"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_below="@id/line1"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>
